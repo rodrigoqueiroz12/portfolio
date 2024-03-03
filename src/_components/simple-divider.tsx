@@ -9,6 +9,10 @@ type SimpleDividerProps = DetailedHTMLProps<
 
 export function SimpleDivider(props: SimpleDividerProps) {
   return (
-    <span {...props} className={cn('h-px bg-bistre-200', props.className)} />
+    <span
+      {...props}
+      className={cn('block h-px bg-bistre-200', props.className)}
+      aria-hidden="true"
+    />
   )
 }

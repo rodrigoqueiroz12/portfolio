@@ -32,6 +32,31 @@ const config: Config = {
           950: '#3E2E24',
         },
       },
+      keyframes: {
+        'overlay-show': {
+          from: {
+            opacity: '0',
+          },
+          to: {
+            opacity: '1',
+          },
+        },
+        'modal-content-show': {
+          from: {
+            opacity: '0',
+            transform: 'translateX(-50%) translateY(-80%)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateX(-50%) translateY(-50%)',
+          },
+        },
+      },
+      animation: {
+        'overlay-show': 'overlay-show 250ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'modal-content-show':
+          'modal-content-show 250ms cubic-bezier(0.16, 1, 0.3, 1) forwards',
+      },
     },
   },
   plugins: [],
