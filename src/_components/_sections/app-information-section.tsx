@@ -56,9 +56,9 @@ export function AppInformationSection() {
                   </Dialog.Trigger>
 
                   <Dialog.Portal>
-                    <Dialog.Overlay className="animate-overlay-show fixed inset-0 bg-bistre-950/30" />
+                    <Dialog.Overlay className="fixed inset-0 animate-overlay-show bg-bistre-950/30" />
 
-                    <Dialog.Content className="animate-modal-content-show fixed left-1/2 top-1/2 mx-4 w-full max-w-xl space-y-4 rounded-md bg-bistre-50 px-6 py-5">
+                    <Dialog.Content className="fixed left-1/2 top-1/2 mx-4 w-full max-w-xl animate-modal-content-show space-y-4 rounded-md bg-bistre-50 px-6 py-5">
                       <div className="flex items-center justify-between">
                         <Dialog.Title asChild>
                           <h5 className="font-lora font-bold leading-heading text-bistre-950">
