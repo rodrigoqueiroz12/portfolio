@@ -1,4 +1,4 @@
-import { cn } from '@/_utils/utils'
+import { cn } from '@/_utils/cn'
 
 type TagProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLSpanElement>,

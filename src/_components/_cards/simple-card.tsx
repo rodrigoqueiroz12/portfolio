@@ -1,6 +1,6 @@
 import { forwardRef } from 'react'
 
-import { cn } from '@/_utils/utils'
+import { cn } from '@/_utils/cn'
 
 type SimpleCardProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLDivElement>,
